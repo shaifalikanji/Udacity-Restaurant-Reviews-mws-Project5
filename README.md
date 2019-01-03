@@ -36,8 +36,8 @@ You will be provided code for a restaurant reviews website. The code has a lot o
 
 ### 1.	Get a MapBox API key
 
-•	Note: You can delete your key after you are done you have completed your project if you wish to.
-•	If you do not already have a MapBox account, go ahead and create one
+1. Note: You can delete your key after you are done you have completed your project if you wish to.
+-If you do not already have a MapBox account, go ahead and create one
 •	MapBox API is free to use (no need to provide any payment information)
 •	If you would like to use Google Maps, there is a google-maps branch of the starter code. You'll need your own Google Maps API key 
 •	source: www.udacity.com
