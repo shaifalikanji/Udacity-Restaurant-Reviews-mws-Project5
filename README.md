@@ -37,26 +37,30 @@ You will be provided code for a restaurant reviews website. The code has a lot o
 ### 1.	Get a MapBox API key
 
 1. Note: You can delete your key after you are done you have completed your project if you wish to.
--If you do not already have a MapBox account, go ahead and create one
-•	MapBox API is free to use (no need to provide any payment information)
-•	If you would like to use Google Maps, there is a google-maps branch of the starter code. You'll need your own Google Maps API key 
-•	source: www.udacity.com
+2. If you do not already have a MapBox account, go ahead and create one
+3. MapBox API is free to use (no need to provide any payment information)
+4. If you would like to use Google Maps, there is a google-maps branch of the starter code. You'll need your own Google Maps API key 
+
+source: www.udacity.com
 
 
 
 ### 2.	Get the map on the screen
 
-•	Head over to your account and create a token. Replace the text <your MAPBOX API KEY HERE> inside of main.js file with your key.
-•	Using Google Maps instead? Replace the text YOUR_GOOGLE_MAPS_API_KEY in index.html and restaurant.html with your own key.
-•	For rendering the map for individual restaurants place your API key in the restaurant_info.js file.
-•	Once you add above KEY’s, open your browser and view the website from the server.
-•	If you are unable to reload your website you can try the following options:
-1.	You may have to select shift-F5 to reload the website
-2.	Use developer tools>application>refresh the cache and cookies
-3.	You can right click the reload button(on the URL link) and click "Empty Cache and Hard Reload".
-4.	Or you can click “Hard Reload”
-•	May have to change your port 8000 to 5500
+1. Head over to your account and create a token. Replace the text <your MAPBOX API KEY HERE> inside of main.js file with your key.
+2. Using Google Maps instead? Replace the text YOUR_GOOGLE_MAPS_API_KEY in index.html and restaurant.html with your own key.
+3. For rendering the map for individual restaurants place your API key in the restaurant_info.js file.
+4. Once you add above KEY’s, open your browser and view the website from the server.
+5. If you are unable to reload your website you can try the following options:
+
+### You may have to select shift-F5 to reload the website
+1. Use developer tools>application>refresh the cache and cookies
+2. You can right click the reload button(on the URL link) and click "Empty Cache and Hard Reload".
+3. Or you can click “Hard Reload”
+4. You may have to change your port 8000 to 5500
+
 Source: www.udacity.com
+
 Note: If you are unable to see the new changes on the web page, use (command + shift + R). 
 This will force your browser to reload and refresh all the resources related to the website's page.
 
@@ -65,27 +69,27 @@ This will force your browser to reload and refresh all the resources related to 
 ### 3. Make the provided website responsive – the website should render on all devices
 Make sure the website is responsive and mobile friendly.
 
-•Images should not overlap on your site
-•All the elements on the page must be usable and visible in any viewport (desktop, tablet, mobile displays).
-•Add document type declaration and the meta-data viewport tags.
-•Make any necessary changes in the styles.css files as needed to make the web site more responsive.
-•Create a responsive grid-based layout using CSS and make sure these items fit a mobile screen(viewport).
-•Use media queries that provide fluid breakpoints across different screen sizes.
-•Use the mobile first approach: start by designing your application for mobile devices then add breakpoints for larger devices (medium – large).
-•Use responsive images that adjust for the dimensions and resolution of any mobile device.
-•Test responsiveness (especially images) across different web browsers, such as Chrome and Firefox.
-•Use height, width, flexbox (display flex, flex basis) CSS grid etc.
+1. Images should not overlap on your site
+2. All the elements on the page must be usable and visible in any viewport (desktop, tablet, mobile displays).
+3. Add document type declaration and the meta-data viewport tags.
+4. Make any necessary changes in the styles.css files as needed to make the web site more responsive.
+5. Create a responsive grid-based layout using CSS and make sure these items fit a mobile screen(viewport).
+6. Use media queries that provide fluid breakpoints across different screen sizes.
+7. Use the mobile first approach: start by designing your application for mobile devices then add breakpoints for larger devices (medium – large).
+8. Use responsive images that adjust for the dimensions and resolution of any mobile device.
+9. Test responsiveness (especially images) across different web browsers, such as Chrome and Firefox.
+10. Use height, width, flexbox (display flex, flex basis) CSS grid etc.
 
 
 ### 4.	Add accessibility features in HTML 
-
 Accessibility features allow users with any sort of impairment to have the best possible user experience. Accessibility enables users use devices or software to navigate through the content on a web page with ease.
 
-•	Create tab indexes for each element.
-•	Use various semantics markup including roles and labels etc. and ARIA
-•	Add alt attributes for descriptive images.
-•	Add screen-reader only attributes 
-•	You can use the following accessibility features on your web page to create a better user experience.
+1. Create tab indexes for each element.
+2. Use various semantics markup including roles and labels etc. and ARIA
+3. Add alt attributes for descriptive images.
+4. Add screen-reader only attributes 
+
+### You can use the following accessibility features on your web page to create a better user experience.
 1.	Use attributes to create accessible images on your site.
 2.	Use hover/focus selectors for better focus on your pages as user navigate through the site.
 3.	Use skip-links to allow users to navigate directly to the main content of the site.
@@ -94,32 +98,27 @@ Accessibility features allow users with any sort of impairment to have the best 
 
 
 ### 5.	Add a Service Worker script to cache requests to all the sites contents
-•	A Service Worker is basically a JavaScript script that resides between your browser (such as Google Chrome) and the remote web server (the server that responds to user URL requests).
+1. A Service Worker is basically a JavaScript script that resides between your browser (such as Google Chrome) and the remote web server (the server that responds to user URL requests).
+2. Essentially the Service Worker script gets registered with the browser and stores user URL requests in a cache. This enables users to view and have access to content on the internet in offline mode and/or even if they are experiencing issues with their internet connection. 
+3. Service Workers use promises (. then, .fetch) etc. 
 
-•	Essentially the Service Worker script gets registered with the browser and stores user URL requests in a cache. This enables users to view and have access to content on the internet in offline mode and/or even if they are experiencing issues with their internet connection. 
-
-•	Service Workers use promises (. then, .fetch) etc. 
-
-
-Service Workers lifecycle events (4 events):
+### Service Workers lifecycle events (4 events):
 
 1.	Register the Service Worker file in a JavaScript file (main.js) add (sw.js)
 2.	Install the Service Worker script – use the install event (sw.js)
 3.	Activate the Service Worker– use activate event for events you want to listen to and their responses. (use fetch, push, sync).
 4.	Create a fetch event to cache the static site for offline use – cache all user URL requests.
 
-Fetch process:
-•	This is where the Service Worker fetches data from the cache if the network connection to the web server is unavailable due to connection issues.
-•	The Service Worker responds to user URL requests using the cache instead of the web server on the network.
-•	This enables content to be rendered in “offline mode” which means the Service Worker is providing the cached content.
+### Fetch process:
+1. This is where the Service Worker fetches data from the cache if the network connection to the web server is unavailable due to connection issues.
+2. The Service Worker responds to user URL requests using the cache instead of the web server on the network.
+3. This enables content to be rendered in “offline mode” which means the Service Worker is providing the cached content.
 
+### Service Worker Summary:
 
-Service Worker Summary:
-
-•	Using Cache API and a Service Worker, cache the data for the website so that any page (including images) that has been visited is accessible offline.
-•	Service Workers sit between your web page and make calls to the server. You are listening to fetch requests, then copying and cloning those fetch requests, and then storing them in the cache OR you can save your local file content in the cache and calling that data.
-•	You can test the service worker script in your project in private browsing (incognito) mode.
-
+1. Using Cache API and a Service Worker, cache the data for the website so that any page (including images) that has been visited is accessible offline.
+2. Service Workers sit between your web page and make calls to the server. You are listening to fetch requests, then copying and cloning those fetch requests, and then storing them in the cache OR you can save your local file content in the cache and calling that data.
+3. You can test the service worker script in your project in private browsing (incognito) mode.
 
 
 ## REFERENCES USED:
@@ -164,4 +163,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent
 https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration
 https://blog.sessionstack.com/how-javascript-works-service-workers-their-life-cycle-and-use-cases-52b19ad98b58
 https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/
+
+## Images of working Service Worker
 
