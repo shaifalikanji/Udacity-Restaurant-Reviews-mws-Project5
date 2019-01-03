@@ -122,7 +122,7 @@ Service Worker Summary:
 
 
 
-### REFERENCES USED:
+## REFERENCES USED:
 
 https://www.youtube.com/watch?v=tyVQW2PkFk4&feature=youtu.be
 https://developer.mozilla.org/en-US/docs/Web/API/Request
@@ -152,7 +152,7 @@ https://webaim.org/techniques/aria/#landmarks
 https://webaim.org/techniques/aria/#keyboard
 https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/
 
-# Service Worker:
+### Service Worker:
 
 https://www.youtube.com/watch?v=ksXwaWHCW6k
 https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/
