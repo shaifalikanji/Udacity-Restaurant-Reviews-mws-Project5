@@ -168,6 +168,8 @@ https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookb
 
 <img width="1008" alt="screen shot 2019-01-03 at 1 21 22 pm" src="https://user-images.githubusercontent.com/38163931/50662246-8dae6280-0f5a-11e9-8dcc-b4fec69369a2.png">
 
+<img width="1122" alt="screen shot 2019-01-03 at 1 26 57 pm" src="https://user-images.githubusercontent.com/38163931/50662468-6015e900-0f5b-11e9-9f61-1615b095b756.png">
+
 <img width="1385" alt="screen shot 2019-01-02 at 10 49 35 am" src="https://user-images.githubusercontent.com/38163931/50662163-550e8900-0f5a-11e9-8984-7a8e1c3016d9.png">
 
 <img width="1383" alt="screen shot 2019-01-02 at 10 48 32 am" src="https://user-images.githubusercontent.com/38163931/50662166-58097980-0f5a-11e9-9b6b-32e12d566185.png">
