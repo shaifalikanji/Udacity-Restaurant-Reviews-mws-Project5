@@ -164,7 +164,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration
 https://blog.sessionstack.com/how-javascript-works-service-workers-their-life-cycle-and-use-cases-52b19ad98b58
 https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/
 
-## Images of Restaurant Reviewer Image and a Working Service Worker
+## Images of Restaurant Reviewer Image and Service Worker that is registered, intalled, activated and fetching content in  offline mode.
 
 <img width="1008" alt="screen shot 2019-01-03 at 1 21 22 pm" src="https://user-images.githubusercontent.com/38163931/50662246-8dae6280-0f5a-11e9-8dcc-b4fec69369a2.png">
 
