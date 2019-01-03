@@ -65,16 +65,16 @@ This will force your browser to reload and refresh all the resources related to 
 ### 3. Make the provided website responsive – the website should render on all devices
 Make sure the website is responsive and mobile friendly.
 
-•	Images should not overlap on your site
-•	All the elements on the page must be usable and visible in any viewport (desktop, tablet, mobile displays).
-•	Add document type declaration and the meta-data viewport tags.
-•	Make any necessary changes in the styles.css files as needed to make the web site more responsive.
-•	Create a responsive grid-based layout using CSS and make sure these items fit a mobile screen(viewport).
-•	Use media queries that provide fluid breakpoints across different screen sizes.
-•	Use the mobile first approach: start by designing your application for mobile devices then add breakpoints for larger devices (medium – large).
-•	Use responsive images that adjust for the dimensions and resolution of any mobile device.
-•	Test responsiveness (especially images) across different web browsers, such as Chrome and Firefox.
-•	Use height, width, flexbox (display flex, flex basis) CSS grid etc.
+•Images should not overlap on your site
+•All the elements on the page must be usable and visible in any viewport (desktop, tablet, mobile displays).
+•Add document type declaration and the meta-data viewport tags.
+•Make any necessary changes in the styles.css files as needed to make the web site more responsive.
+•Create a responsive grid-based layout using CSS and make sure these items fit a mobile screen(viewport).
+•Use media queries that provide fluid breakpoints across different screen sizes.
+•Use the mobile first approach: start by designing your application for mobile devices then add breakpoints for larger devices (medium – large).
+•Use responsive images that adjust for the dimensions and resolution of any mobile device.
+•Test responsiveness (especially images) across different web browsers, such as Chrome and Firefox.
+•Use height, width, flexbox (display flex, flex basis) CSS grid etc.
 
 
 ### 4.	Add accessibility features in HTML 
