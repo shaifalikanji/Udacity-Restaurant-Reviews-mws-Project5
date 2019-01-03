@@ -26,15 +26,15 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 
 
-### Project Overview
+## Project Overview
 
 For the Restaurant Reviews projects, you will convert a static webpage to a mobile-ready web application. Your goal for this project is to take a static design that lacks many features and convert it to a responsive website with accessibility features and install a Service Worker that will cache static content for offline use. 
 Specification
 You will be provided code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality.
 
-### Requirements
+## Requirements
 
-# 1.	Get a MapBox API key
+### 1.	Get a MapBox API key
 
 •	Note: You can delete your key after you are done you have completed your project if you wish to.
 •	If you do not already have a MapBox account, go ahead and create one
@@ -44,7 +44,7 @@ You will be provided code for a restaurant reviews website. The code has a lot o
 
 
 
-# 2.	Get the map on the screen
+### 2.	Get the map on the screen
 
 •	Head over to your account and create a token. Replace the text <your MAPBOX API KEY HERE> inside of main.js file with your key.
 •	Using Google Maps instead? Replace the text YOUR_GOOGLE_MAPS_API_KEY in index.html and restaurant.html with your own key.
@@ -62,7 +62,7 @@ This will force your browser to reload and refresh all the resources related to 
 
 
 
-# 3. Make the provided website responsive – the website should render on all devices
+### 3. Make the provided website responsive – the website should render on all devices
 Make sure the website is responsive and mobile friendly.
 
 •	Images should not overlap on your site
@@ -77,7 +77,7 @@ Make sure the website is responsive and mobile friendly.
 •	Use height, width, flexbox (display flex, flex basis) CSS grid etc.
 
 
-# 4.	Add accessibility features in HTML 
+### 4.	Add accessibility features in HTML 
 
 Accessibility features allow users with any sort of impairment to have the best possible user experience. Accessibility enables users use devices or software to navigate through the content on a web page with ease.
 
@@ -93,7 +93,7 @@ Accessibility features allow users with any sort of impairment to have the best 
 5.	Use ARIA links to allow users to know which links they have selected as they navigate through the web page.
 
 
-# 5.	Add a Service Worker script to cache requests to all the sites contents
+### 5.	Add a Service Worker script to cache requests to all the sites contents
 •	A Service Worker is basically a JavaScript script that resides between your browser (such as Google Chrome) and the remote web server (the server that responds to user URL requests).
 
 •	Essentially the Service Worker script gets registered with the browser and stores user URL requests in a cache. This enables users to view and have access to content on the internet in offline mode and/or even if they are experiencing issues with their internet connection. 
